@@ -215,16 +215,48 @@ class _Page2State extends State<Page2> {
                               ),
                             ),
                             SizedBox(height: 20),
-                            Container(
-                              child: Column(
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Row(
                                 children: [
-                                Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVY7qjz0j0iw9W5GLULnn7jUxkHLlV0NsqQQ&usqp=CAU"),
-                                Text("Hotel de Montpellier", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
-                                ElevatedButton(onPressed: () {
-                                  
-                                }, child:Text(" A Découvrir "),),
-                              ]),
-                            )
+                                  Container(
+                                    child: Column(
+                                      children: [
+                                      Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVY7qjz0j0iw9W5GLULnn7jUxkHLlV0NsqQQ&usqp=CAU"),
+                                      Text("Hotel de Montpellier", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+                                      ElevatedButton(onPressed: () {
+                                        
+                                      }, child:Text("A Découvrir"),
+                                      
+                                      ),
+                                    ]),
+                                  ),
+                                  SizedBox(width: 20),
+                             Container(height: 100,
+                                       width: 100,
+                                       decoration: BoxDecoration(
+                                         color: Colors.red,
+                                       ),
+
+                                      child: Column(
+                                      children: [
+                                      SizedBox(height: 20),
+                                      Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyGc-e2QnywH-GucfYJ-0USeKufNs7UgSetQ&usqp=CAU"),
+                                      Text("Casa Las Tortugas", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+                                      ElevatedButton(onPressed: () {
+                                       
+                                     }, child: Text("A découvrir"),
+                                     ),
+                                     ],
+                                      ),
+                                    ),
+                            
+
+
+
+                                ],
+                              ),
+                            ),
                             
         
         
