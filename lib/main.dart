@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tourisme/Montagnes.dart';
 import 'package:tourisme/Page.dart';
 import 'package:tourisme/Page2.dart';
 import 'package:tourisme/Plages.dart';
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home:Plages(), 
+      home:Monts(), 
     );
   }
 }

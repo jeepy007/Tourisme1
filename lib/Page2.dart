@@ -1,4 +1,4 @@
-import 'dart:html';
+
 
 import 'package:tourisme/Page.dart';
 import 'package:flutter/material.dart';
@@ -232,12 +232,7 @@ class _Page2State extends State<Page2> {
                                     ]),
                                   ),
                                   SizedBox(width: 20),
-                             Container(height: 100,
-                                       width: 100,
-                                       decoration: BoxDecoration(
-                                         color: Colors.red,
-                                       ),
-
+                             Container(
                                       child: Column(
                                       children: [
                                       SizedBox(height: 20),
