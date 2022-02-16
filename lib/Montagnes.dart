@@ -49,6 +49,15 @@ class _MontsState extends State<Monts> {
                     
                             ],
                           ),
+                             SizedBox(width: 30,),
+                          Column(
+                            children: [
+                              Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJThpOH6qBl407kiPPb4djFmPhdeCX1gmNdA&usqp=CAU"),
+                              Text("Les chutes de Montreal", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+                              Text("12458627 visiteurs / an", style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold, color: Colors.black.withOpacity(0.5)),),
+                    
+                            ],
+                          ),
                           
                     
                     

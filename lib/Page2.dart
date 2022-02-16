@@ -1,5 +1,6 @@
 
 
+import 'package:tourisme/Montagnes.dart';
 import 'package:tourisme/Page.dart';
 import 'package:flutter/material.dart';
 import 'package:tourisme/Plages.dart';
@@ -100,6 +101,10 @@ class _Page2State extends State<Page2> {
                               height: 40,
                               width: 100,
                               child: IconButton(onPressed: () {
+                                 Navigator.push(
+                                                  context,
+                                          MaterialPageRoute(builder: (context) => const Monts()),
+                                );
                                 
                               }, icon: Text("Montagnes",style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold))
                               ),
@@ -217,39 +222,98 @@ class _Page2State extends State<Page2> {
                             SizedBox(height: 20),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: Row(
-                                children: [
-                                  Container(
-                                    child: Column(
-                                      children: [
-                                      Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVY7qjz0j0iw9W5GLULnn7jUxkHLlV0NsqQQ&usqp=CAU"),
-                                      Text("Hotel de Montpellier", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
-                                      ElevatedButton(onPressed: () {
-                                        
-                                      }, child:Text("A Découvrir"),
-                                      
-                                      ),
-                                    ]),
-                                  ),
-                                  SizedBox(width: 20),
-                             Container(
+                              child: SingleChildScrollView(
+                                scrollDirection: Axis.horizontal,
+                                child: Row(
+                                  children: [
+                                    Container(
                                       child: Column(
-                                      children: [
-                                      SizedBox(height: 20),
-                                      Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyGc-e2QnywH-GucfYJ-0USeKufNs7UgSetQ&usqp=CAU"),
-                                      Text("Casa Las Tortugas", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
-                                      ElevatedButton(onPressed: () {
-                                       
-                                     }, child: Text("A découvrir"),
-                                     ),
-                                     ],
-                                      ),
+                                        children: [
+                                        Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVY7qjz0j0iw9W5GLULnn7jUxkHLlV0NsqQQ&usqp=CAU"),
+                                        Text("Hotel de Montpellier", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+                                        ElevatedButton(onPressed: () {
+                                          
+                                        }, child:Text("A Découvrir"),
+                                        
+                                        ),
+                                      ]),
                                     ),
-                            
-
-
-
-                                ],
+                                    SizedBox(width: 20),
+                                        Container(
+                                        child: Column(
+                                        children: [
+                                        SizedBox(height: 20),
+                                        Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyGc-e2QnywH-GucfYJ-0USeKufNs7UgSetQ&usqp=CAU"),
+                                        Text("Casa Las Tortugas", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+                                        ElevatedButton(onPressed: () {
+                                         
+                                       }, child: Text("A découvrir"),
+                                       ),
+                                       ],
+                                        ),
+                                      ),
+                                      SizedBox(width: 20),
+                                        Container(
+                                        child: Column(
+                                        children: [
+                                        SizedBox(height: 20),
+                                        Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmlcRr6ECEmOXTtIYxCkQUFiQncHOor3lPSA&usqp=CAU"),
+                                        Text("Chutes de Viago", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+                                        ElevatedButton(onPressed: () {
+                                         
+                                       }, child: Text("A découvrir"),
+                                       ),
+                                       ],
+                                        ),
+                                      ),
+                                      SizedBox(width: 20),
+                                        Container(
+                                        child: Column(
+                                        children: [
+                                        SizedBox(height: 20),
+                                        Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJThpOH6qBl407kiPPb4djFmPhdeCX1gmNdA&usqp=CAU"),
+                                        Text("Chutes de Montreal", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+                                        ElevatedButton(onPressed: () {
+                                         
+                                       }, child: Text("A découvrir"),
+                                       ),
+                                       ],
+                                        ),
+                                      ),
+                                       SizedBox(width: 20),
+                                        Container(
+                                        child: Column(
+                                        children: [
+                                        SizedBox(height: 20),
+                                        Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2C4uI7CRtpVh70oYLD6LIdKq9BGE6zvajdw&usqp=CAU"),
+                                        Text("Chutes de Montreal", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+                                        ElevatedButton(onPressed: () {
+                                         
+                                       }, child: Text("A découvrir"),
+                                       ),
+                                       ],
+                                        ),
+                                      ),
+                                       SizedBox(width: 20),
+                                        Container(
+                                        child: Column(
+                                        children: [
+                                        SizedBox(height: 20),
+                                        Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU1W8JBHDjte0WDUpNxII5q2ImVNM5kunMTA&usqp=CAU"),
+                                        Text("Chutes de Montreal", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+                                        ElevatedButton(onPressed: () {
+                                         
+                                       }, child: Text("A découvrir"),
+                                       ),
+                                       ],
+                                        ),
+                                      ),
+                                                          
+                              
+                              
+                              
+                                  ],
+                                ),
                               ),
                             ),
                             
