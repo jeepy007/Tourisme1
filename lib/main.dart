@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tourisme/Montagnes.dart';
 
-import 'package:tourisme/Page.dart';
+import 'package:tourisme/Page1.dart';
 import 'package:tourisme/Page2.dart';
 import 'package:tourisme/Page5.dart';
 
