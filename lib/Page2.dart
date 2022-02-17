@@ -128,10 +128,10 @@ class _Page2State extends State<Page2> {
                                       Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsneFmD61Efl5xQpjmdVVOjuXKyr7VNlf8Cg&usqp=CAU"),
                                       Text("Casa Las Tortugas", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
                                    ElevatedButton(onPressed: () {
-                                     Navigator.push(
-    context,
-    MaterialPageRoute(builder: (context) => const Page4()),
-  );
+                                          Navigator.push(
+                                                    context,
+                                                    MaterialPageRoute(builder: (context) => const Page4()),
+                                     );
         
                                      }, child: Text("A découvrir")
                                      ),
