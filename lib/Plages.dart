@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tourisme/Page.dart';
+import 'package:tourisme/Page1.dart';
 import 'package:tourisme/Page2.dart';
 
 
@@ -93,8 +93,8 @@ class _PlagesState extends State<Plages> {
                               label: "Home"
                               ),
                                 BottomNavigationBarItem(
-                                icon: Icon(Icons.home),
-                              label: "Home"
+                                icon: Icon(Icons.message),
+                              label: "Message"
                               ),
                                 BottomNavigationBarItem(
                                 icon: Icon(Icons.search),

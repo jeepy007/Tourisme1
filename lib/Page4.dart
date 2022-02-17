@@ -25,7 +25,7 @@ class _Page4State extends State<Page4> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('La Casa del Tortugas'),
+        title: Text('La Casa del Tortugas (Espagne)'),
         centerTitle: true,
       ),
 
@@ -54,7 +54,10 @@ class _Page4State extends State<Page4> {
             children: [
               Row(
                 children: [
-                  Text('*****', style: TextStyle(fontSize: 30, color: Colors.yellow),),
+                  Text('*', style: TextStyle(fontSize: 30, color: Colors.blue),),
+                  SizedBox(width: 15),
+                  Text("4,8", style: TextStyle(fontSize: 25),),
+
                   SizedBox(width: 50),
                   Text("2504 visiteurs / mois", style: TextStyle(fontSize: 25),),
                 ],
@@ -70,20 +73,51 @@ class _Page4State extends State<Page4> {
                     SizedBox(width: 2),
                     Text("2", style: TextStyle(fontSize: 25),),
                     SizedBox(width: 100,),
-                    Text("150000F CFA", style: TextStyle(fontSize: 25),),
+                    Text("500000F CFA", style: TextStyle(fontSize: 25),),
 
                 ]),
+              ),
+              SizedBox(height: 30),
+              Text("FACILITIES", style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),),
+              SizedBox(height: 20),
+              Text("gfsjhkhcvsjkvkbjbc bvjgkjhfZKLJGJBV SHJGLKGHVK;  svBN, nbn, edZKJFJVHJ,NVNNBFHEn nbslHFGJHNV,gughghjqchjQJVGQVJH BJJHGSCJGGVBHDC ghshfjjutrghqvhj jhjbdjkdfjbbfhvghjsvjkgs  bvhsdgjcsv bvhsgjvhjv nbxbs vhdjvhjsdvnsdhvsd hgxjcvhsudgfgjf hgjHZGFHZJBGHfgrzjfN VNSBVBSJBVN V ghjGJBJSGUVGBN hgjhkjJGJSJHJZNHJRG JHJNVSKNVHZEFZ"),
+              Container( 
+                child: ElevatedButton(onPressed: () {
+                 
+                }, child: Text("RESERVER", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+              ),
               )
             ],
           ),
         ),
-      )
+      ),
+      
+        ],
+        ), 
+        ),
+         bottomNavigationBar: BottomNavigationBar(
+                            items: [
+                              BottomNavigationBarItem(
+                                icon: Icon(Icons.home),
+                              label: "Home",
+                              backgroundColor: Colors.blue,
+                              ),
+                                BottomNavigationBarItem(
+                                icon: Icon(Icons.home),
+                              label: "Home"
+                              ),
+                                BottomNavigationBarItem(
+                                icon: Icon(Icons.message),
+                              label: "Message"
+                              ),
+                                BottomNavigationBarItem(
+                                icon: Icon(Icons.search),
+                              label: "Recherche"
+                              ),
+                              
+                              
 
-
-  
-            
-
-        ],) ),
+                          ]),
       
     );
   }

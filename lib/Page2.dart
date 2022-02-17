@@ -1,7 +1,7 @@
 
 
 import 'package:tourisme/Montagnes.dart';
-import 'package:tourisme/Page.dart';
+import 'package:tourisme/Page1.dart';
 import 'package:flutter/material.dart';
 import 'package:tourisme/Page4.dart';
 import 'package:tourisme/Plages.dart';
@@ -336,8 +336,8 @@ class _Page2State extends State<Page2> {
                               label: "Home"
                               ),
                                 BottomNavigationBarItem(
-                                icon: Icon(Icons.home),
-                              label: "Home"
+                                icon: Icon(Icons.message),
+                              label: "message"
                               ),
                                 BottomNavigationBarItem(
                                 icon: Icon(Icons.search),
