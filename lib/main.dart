@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:tourisme/Montagnes.dart';
+
 import 'package:tourisme/Page.dart';
 import 'package:tourisme/Page2.dart';
 import 'package:tourisme/Page5.dart';
+
+
 import 'package:tourisme/Plages.dart';
 import 'Page4.dart';
 
@@ -12,6 +15,8 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
+
+
 
   // This widget is the root of your application.
   @override
@@ -31,7 +36,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home:Page5(), 
+      home:Page2(),
     );
   }
 }

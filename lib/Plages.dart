@@ -69,7 +69,8 @@ class _PlagesState extends State<Plages> {
                   Text("La baie des Milliardaires", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
                   ElevatedButton(onPressed: () {
                     
-                  }, child: Text("A Découvrir"))
+                  }, child: Text("A Découvrir")
+                  ),
         
                 ]),
               ),
@@ -80,6 +81,29 @@ class _PlagesState extends State<Plages> {
           ]),
         ),
       ),
+      bottomNavigationBar: BottomNavigationBar(
+                            items: [
+                              BottomNavigationBarItem(
+                                icon: Icon(Icons.home),
+                              label: "Home",
+                              backgroundColor: Colors.blue,
+                              ),
+                                BottomNavigationBarItem(
+                                icon: Icon(Icons.home),
+                              label: "Home"
+                              ),
+                                BottomNavigationBarItem(
+                                icon: Icon(Icons.home),
+                              label: "Home"
+                              ),
+                                BottomNavigationBarItem(
+                                icon: Icon(Icons.search),
+                              label: "Recherche"
+                              ),
+                              
+                              
+
+                          ]),
     );
   }
 }

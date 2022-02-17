@@ -3,6 +3,7 @@
 import 'package:tourisme/Montagnes.dart';
 import 'package:tourisme/Page.dart';
 import 'package:flutter/material.dart';
+import 'package:tourisme/Page4.dart';
 import 'package:tourisme/Plages.dart';
 
 class Page2 extends StatefulWidget {
@@ -127,6 +128,10 @@ class _Page2State extends State<Page2> {
                                       Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsneFmD61Efl5xQpjmdVVOjuXKyr7VNlf8Cg&usqp=CAU"),
                                       Text("Casa Las Tortugas", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
                                    ElevatedButton(onPressed: () {
+                                     Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => const Page4()),
+  );
         
                                      }, child: Text("A découvrir")
                                      ),
@@ -309,25 +314,39 @@ class _Page2State extends State<Page2> {
                                         ),
                                       ),
                                                           
-                              
-                              
-                              
                                   ],
                                 ),
+                                
                               ),
-                            ),
                             
-        
-        
-        
-        
-        
-        
-        
+                            ),
                              ],
                               ),
         ),
-                          )
+                          ),
+                          bottomNavigationBar: BottomNavigationBar(
+                            items: [
+                              BottomNavigationBarItem(
+                                icon: Icon(Icons.home),
+                              label: "Home",
+                              backgroundColor: Colors.blue,
+                              ),
+                                BottomNavigationBarItem(
+                                icon: Icon(Icons.home),
+                              label: "Home"
+                              ),
+                                BottomNavigationBarItem(
+                                icon: Icon(Icons.home),
+                              label: "Home"
+                              ),
+                                BottomNavigationBarItem(
+                                icon: Icon(Icons.search),
+                              label: "Recherche"
+                              ),
+                              
+                              
+
+                          ]),
 
 
 
