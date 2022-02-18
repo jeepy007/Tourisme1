@@ -54,11 +54,9 @@ class _Page4State extends State<Page4> {
             children: [
               Row(
                 children: [
-                  Text('*', style: TextStyle(fontSize: 30, color: Colors.blue),),
+                  Text('*****', style: TextStyle(fontSize: 30, color: Colors.yellow),),
                   SizedBox(width: 15),
-                  Text("4,8", style: TextStyle(fontSize: 25),),
-
-                  SizedBox(width: 50),
+                  Text("(4,8)", style: TextStyle(fontSize: 25, color: Colors.black.withOpacity(0.5)),),
                   Text("2504 visiteurs / mois", style: TextStyle(fontSize: 25),),
                 ],
               ),
@@ -103,8 +101,8 @@ class _Page4State extends State<Page4> {
                               backgroundColor: Colors.blue,
                               ),
                                 BottomNavigationBarItem(
-                                icon: Icon(Icons.home),
-                              label: "Home"
+                                icon: Icon(Icons.favorite),
+                              label: "Favorite"
                               ),
                                 BottomNavigationBarItem(
                                 icon: Icon(Icons.message),

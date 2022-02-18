@@ -89,8 +89,8 @@ class _PlagesState extends State<Plages> {
                               backgroundColor: Colors.blue,
                               ),
                                 BottomNavigationBarItem(
-                                icon: Icon(Icons.home),
-                              label: "Home"
+                                icon: Icon(Icons.favorite),
+                              label: "Favorite"
                               ),
                                 BottomNavigationBarItem(
                                 icon: Icon(Icons.message),

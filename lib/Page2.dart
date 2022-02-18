@@ -126,7 +126,7 @@ class _Page2State extends State<Page2> {
                                       children: [
                                       SizedBox(height: 20),
                                       Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsneFmD61Efl5xQpjmdVVOjuXKyr7VNlf8Cg&usqp=CAU"),
-                                      Text("Casa Las Tortugas", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+                                      Text("Casa Las Tortugas (Espagne", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
                                    ElevatedButton(onPressed: () {
                                           Navigator.push(
                                                     context,
@@ -144,7 +144,7 @@ class _Page2State extends State<Page2> {
                                       children: [
                                       SizedBox(height: 20),
                                       Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4YiU0pxq1GGdGKPw84uytUgokuel8yOpW0Q&usqp=CAU"),
-                                      Text("Casa Las Tortugas", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+                                      Text("Hotel Sky Blue (Angleterre)", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
                                       ElevatedButton(onPressed: () {
                                        
                                      }, child: Text("A découvrir")
@@ -332,8 +332,8 @@ class _Page2State extends State<Page2> {
                               backgroundColor: Colors.blue,
                               ),
                                 BottomNavigationBarItem(
-                                icon: Icon(Icons.home),
-                              label: "Home"
+                                icon: Icon(Icons.favorite),
+                              label: "Favorite"
                               ),
                                 BottomNavigationBarItem(
                                 icon: Icon(Icons.message),

@@ -29,7 +29,8 @@ class _Page1State extends State<Page1> {
               children: [
               
                 Image.network('https://geo.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fgeo.2F2019.2F12.2F10.2Fe9b1f670-3266-4e6c-9c27-50dd00c77464.2Ejpeg/1150x647/background-color/ffffff/quality/70/quelles-sont-les-attractions-touristiques-les-plus-populaires.jpg'),
-                  Text("SE CONNECTER",style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+                SizedBox(height: 20),
+                  Text("SE CONNECTER",style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),),
                   SizedBox(height: 20,),
                   Padding(
                     padding: const EdgeInsets.all(8.0),

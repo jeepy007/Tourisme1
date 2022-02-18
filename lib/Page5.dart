@@ -14,7 +14,10 @@
             @override
             Widget build(BuildContext context) {
               return Scaffold(
-                
+                  appBar: AppBar(
+                    title: Text("Hotel Sky Blue (Angleterre)"),
+                    centerTitle: true,
+                  ),
               );
             }
           }                                                                                                                                                                                                                                                                                            
