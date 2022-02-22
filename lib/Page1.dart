@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:tourisme/Page2.dart';
 
 class Page1 extends StatefulWidget {
   const Page1({ Key? key }) : super(key: key);
@@ -50,10 +51,12 @@ class _Page1State extends State<Page1> {
                      padding: const EdgeInsets.all(8.0),
                      child: Container(
                        child: TextFormField(
+                         obscureText: true,
                         decoration: InputDecoration(
                           enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(20)),
                           hintText: "Mot de passe",
-                          labelText:"Entrez votre mot de passe"
+                          labelText:"Entrez votre mot de passe",
+                          suffixIcon: Icon(Icons.visibility),
                          ),
                   
                   ),
@@ -66,11 +69,16 @@ class _Page1State extends State<Page1> {
                      child: Row(
                        children: [
                          ElevatedButton(onPressed: () {
+                                 Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => const Page2()),
+  );
                            
                          }, child: Text("Valider")
                          ),
                          SizedBox(width: 150,),
                          FlatButton(onPressed:() {
+                     
                            
                          } , child: Text("Mot de passe oublié?")
                          ),
@@ -100,14 +108,7 @@ class _Page1State extends State<Page1> {
                    child: Row(
                      mainAxisAlignment: MainAxisAlignment.center,
                      children: [
-                       Container(
-                         height: 40,
-                         width: 120,
-                         decoration: BoxDecoration(color: Colors.red),
-                         child:ElevatedButton(onPressed: () {
-                           
-                         }, child: Text("Connection")) ,
-                       )
+                     
 
                        
                        
