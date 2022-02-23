@@ -1,5 +1,6 @@
 
 
+import 'package:tourisme/Events.dart';
 import 'package:tourisme/Montagnes.dart';
 import 'package:tourisme/Page1.dart';
 import 'package:flutter/material.dart';
@@ -84,6 +85,10 @@ class _Page2State extends State<Page2> {
                               height: 40,
                               width: 70,
                               child: IconButton(onPressed: () {
+                                Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => const Events()),
+  );
                                 
                               }, icon: Text("Events",style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold))
                               ),

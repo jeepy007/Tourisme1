@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 
 final List<String> imgList = [
-'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsneFmD61Efl5xQpjmdVVOjuXKyr7VNlf8Cg&usqp=CAU',
+'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsneFmD61Efl5xQpjmdVVOjuXKyr7VNlf8Cg&usqp=CAU'
 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1-6OxIo23M1zjWyQEvXnlSzKrJm-uyMM7ZQ&usqp=CAU'
 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbQphTevBoyxOCaRte7Ywj8FiG30J4okloTQ&usqp=CAU'
 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9wcdCgK_YRWfJ5mClwMuh5jI0gXv86KyyVA&usqp=CAU'

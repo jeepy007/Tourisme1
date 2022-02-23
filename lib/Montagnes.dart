@@ -80,12 +80,12 @@ class _MontsState extends State<Monts> {
                               backgroundColor: Colors.blue,
                               ),
                                 BottomNavigationBarItem(
-                                icon: Icon(Icons.home),
-                              label: "Home"
+                                icon: Icon(Icons.favorite),
+                              label: "Favorite"
                               ),
                                 BottomNavigationBarItem(
-                                icon: Icon(Icons.home),
-                              label: "Home"
+                                icon: Icon(Icons.message),
+                              label: "Message"
                               ),
                                 BottomNavigationBarItem(
                                 icon: Icon(Icons.search),
