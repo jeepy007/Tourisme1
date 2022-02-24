@@ -19,58 +19,77 @@ class _MontsState extends State<Monts> {
       ),
 
       body: SingleChildScrollView(
-        child:Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Column(
-            children: [
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Container(
-                  child: Padding(
+        child:Column(
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Column(
+                children: [
+                  Padding(
                     padding: const EdgeInsets.all(8.0),
-                    child: SingleChildScrollView(
-                      scrollDirection: Axis.horizontal,
-                      child: Row(
-                        children: [
-                          Column(
+                    child: Container(
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: SingleChildScrollView(
+                          scrollDirection: Axis.vertical,
+                          child: Column(
                             children: [
-                              Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmlcRr6ECEmOXTtIYxCkQUFiQncHOor3lPSA&usqp=CAU"),
-                              Text("Les chutes de Viago", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
-                              Text("14458627 visiteurs / an", style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold, color: Colors.black.withOpacity(0.5)),),
-                    
+                              Column(
+                                children: [
+                                  Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmlcRr6ECEmOXTtIYxCkQUFiQncHOor3lPSA&usqp=CAU"),
+                                  Text("Les chutes de Viago", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+                                  Text("14458627 visiteurs / an", style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold, color: Colors.black.withOpacity(0.5)),),
+                                  ElevatedButton(onPressed: () {
+                                    
+                                  },
+                                   child: Text("A découvrir")
+                                    ),
+                                ],
+                              ),
+
+                              SizedBox(width: 30,),
+                              Column(
+                                children: [
+                                  Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv6bsnVP7SKY06o7rrq23GPAafHNXuBzBEXw&usqp=CAU"),
+                                  Text("Les chutes de Gouina", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+                                  Text("7458627 visiteurs / an", style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold, color: Colors.black.withOpacity(0.5)),),
+                                  ElevatedButton(onPressed: () {
+                                    
+                                  },
+                                   child: Text("A découvrir")
+                                    ),
+                        
+                                ],
+                              ),
+                                 SizedBox(width: 30,),
+                              Column(
+                                children: [
+                                  Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJThpOH6qBl407kiPPb4djFmPhdeCX1gmNdA&usqp=CAU"),
+                                  Text("Les chutes de Montreal", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+                                  Text("12458627 visiteurs / an", style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold, color: Colors.black.withOpacity(0.5)),),
+                                  ElevatedButton(onPressed: () {
+                                    
+                                  },
+                                   child: Text("A découvrir")
+                                    ),
+                        
+                                ],
+                              ),
+                              
+                        
+                        
+                        
+                        
                             ],
                           ),
-                          SizedBox(width: 30,),
-                          Column(
-                            children: [
-                              Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv6bsnVP7SKY06o7rrq23GPAafHNXuBzBEXw&usqp=CAU"),
-                              Text("Les chutes de Gouina", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
-                              Text("7458627 visiteurs / an", style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold, color: Colors.black.withOpacity(0.5)),),
-                    
-                            ],
-                          ),
-                             SizedBox(width: 30,),
-                          Column(
-                            children: [
-                              Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJThpOH6qBl407kiPPb4djFmPhdeCX1gmNdA&usqp=CAU"),
-                              Text("Les chutes de Montreal", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
-                              Text("12458627 visiteurs / an", style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold, color: Colors.black.withOpacity(0.5)),),
-                    
-                            ],
-                          ),
-                          
-                    
-                    
-                    
-                    
-                        ],
+                        ),
                       ),
                     ),
-                  ),
-                ),
-              )
+                  )
 
-          ],),
+              ],),
+            ),
+          ],
         ) ),
         bottomNavigationBar: BottomNavigationBar(
                             items: [

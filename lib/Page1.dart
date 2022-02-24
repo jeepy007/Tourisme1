@@ -15,11 +15,8 @@ class _Page1State extends State<Page1> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("TOURISME", style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),),
-        leading: Icon(Icons.menu),
-        actions: [
-          Icon(Icons.search),
-        ],
+        title: Text("DECOUVERTE", style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),),
+          centerTitle: true,
       ),
 
       body: Center(

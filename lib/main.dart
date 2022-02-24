@@ -4,8 +4,7 @@ import 'package:tourisme/Montagnes.dart';
 import 'package:tourisme/Page1.dart';
 import 'package:tourisme/Page2.dart';
 import 'package:tourisme/Page5.dart';
-import 'package:tourisme/Plages.dart';
-import 'package:tourisme/RecipeDataBase.dart';
+import 'package:tourisme/Plages.dart';        
 import 'Page4.dart';
 
 void main() {
@@ -36,7 +35,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home:mount(),
+      home:Page1(),
     );
   }
 }

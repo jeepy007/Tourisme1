@@ -83,25 +83,17 @@ class _Page2State extends State<Page2> {
                             SizedBox(width: 30),
                              Container(
                               height: 40,
-                              width: 70,
+                              width: 100,
                               child: IconButton(onPressed: () {
                                 Navigator.push(
     context,
     MaterialPageRoute(builder: (context) => const Events()),
   );
                                 
-                              }, icon: Text("Events",style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold))
+                              }, icon: Text("Monuments",style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold))
                               ),
                             ),
-                            SizedBox(width: 30),
-                             Container(
-                              height: 40,
-                              width: 70,
-                              child: IconButton(onPressed: () {
-                                
-                              }, icon: Text("Tickets",style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold))
-                              ),
-                            ),
+                            
                             SizedBox(width: 30),
                              Container(
                               height: 40,
@@ -131,7 +123,7 @@ class _Page2State extends State<Page2> {
                                       children: [
                                       SizedBox(height: 20),
                                       Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsneFmD61Efl5xQpjmdVVOjuXKyr7VNlf8Cg&usqp=CAU"),
-                                      Text("Casa Las Tortugas (Espagne", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+                                      Text("Casa Las Tortugas (Espagne)", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
                                    ElevatedButton(onPressed: () {
                                           Navigator.push(
                                                     context,
@@ -310,7 +302,7 @@ class _Page2State extends State<Page2> {
                                         children: [
                                         SizedBox(height: 20),
                                         Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU1W8JBHDjte0WDUpNxII5q2ImVNM5kunMTA&usqp=CAU"),
-                                        Text("Chutes de Montreal", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+                                        Text("Plage de Tijuana", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
                                         ElevatedButton(onPressed: () {
                                          
                                        }, child: Text("A découvrir"),
