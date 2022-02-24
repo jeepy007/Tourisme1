@@ -15,7 +15,7 @@ class _Page1State extends State<Page1> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("DECOUVERTE", style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),),
+        title: Text("DECOUVERTE...", style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),),
           centerTitle: true,
       ),
 
@@ -65,19 +65,16 @@ class _Page1State extends State<Page1> {
                    child: Container(
                      child: Row(
                        children: [
-                         ElevatedButton(onPressed: () {
-                                 Navigator.push(
-    context,
-    MaterialPageRoute(builder: (context) => const Page2()),
-  );
+                         FlatButton(onPressed: () {
+                                
                            
-                         }, child: Text("Valider")
+                         }, child: Text("Créer un compte")
                          ),
-                         SizedBox(width: 150,),
+                         SizedBox(width: 80,),
                          FlatButton(onPressed:() {
                      
                            
-                         } , child: Text("Mot de passe oublié?")
+                         } , child: Text("Mot de passe oublié?",)
                          ),
 
                        ],
@@ -96,28 +93,15 @@ class _Page1State extends State<Page1> {
                            borderRadius: BorderRadius.circular(20)
                          ),
                          child:ElevatedButton(onPressed: () {
-                           
-                         }, child:Text("Créer un compte")) ,
+                            Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => const Page2()),
+  );
+                         }, child:Text("Valider")
+                         ) ,
                        ),
                        SizedBox(width: 30),
                        SizedBox(height: 20),
-                 Container(
-                   child: Row(
-                     mainAxisAlignment: MainAxisAlignment.center,
-                     children: [
-                     
-
-                       
-                       
-                  
-
-
-
-
-
-
-                   ]),
-                 )
                 
                   
                 
@@ -130,6 +114,31 @@ class _Page1State extends State<Page1> {
        
     ),
     ),
+    bottomNavigationBar: BottomNavigationBar(
+                            items: [
+                              BottomNavigationBarItem(
+                                icon: Icon(Icons.home),
+                              label: "Home",
+                              backgroundColor: Colors.blue,
+                              ),
+                                BottomNavigationBarItem(
+                                icon: Icon(Icons.favorite),
+                              label: "Favorite"
+                              ),
+                                BottomNavigationBarItem(
+                                icon: Icon(Icons.message),
+                              label: "message"
+                              ),
+                                BottomNavigationBarItem(
+                                icon: Icon(Icons.search),
+                              label: "Recherche"
+                              ),
+                              
+                              
+
+                          ]),
+
+
     );
   }
 }

@@ -76,7 +76,7 @@ class _Page4State extends State<Page4> {
                 ]),
               ),
               SizedBox(height: 30),
-              Text("FACILITIES", style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),),
+              Text("DESCRIPTION", style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),),
               SizedBox(height: 20),
               Text("gfsjhkhcvsjkvkbjbc bvjgkjhfZKLJGJBV SHJGLKGHVK;  svBN, nbn, edZKJFJVHJ,NVNNBFHEn nbslHFGJHNV,gughghjqchjQJVGQVJH BJJHGSCJGGVBHDC ghshfjjutrghqvhj jhjbdjkdfjbbfhvghjsvjkgs  bvhsdgjcsv bvhsgjvhjv nbxbs vhdjvhjsdvnsdhvsd hgxjcvhsudgfgjf hgjHZGFHZJBGHfgrzjfN VNSBVBSJBVN V ghjGJBJSGUVGBN hgjhkjJGJSJHJZNHJRG JHJNVSKNVHZEFZ"),
               Container( 
