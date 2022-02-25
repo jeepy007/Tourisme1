@@ -84,7 +84,7 @@ class _Page4State extends State<Page4> {
                  
                 }, child: Text("RESERVER", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
               ),
-              )
+              ),
             ],
           ),
         ),

@@ -74,10 +74,6 @@ class _PlagesState extends State<Plages> {
         
                 ]),
               ),
-        
-        
-        
-        
           ]),
         ),
       ),
